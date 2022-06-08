@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  itchysats-testnet:
+    image: ghcr.io/itchysats/itchysats/taker:0.4.19
+    restart: on-failure
+    ports:
+      - 8000:8000
+    volumes:
+      - ./data:/data
+    command: |
+      --log-level=Info
+      testnet
