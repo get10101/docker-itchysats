@@ -1,0 +1,5 @@
+# Wallet seed - backup elsewhere, not on git.
+**/taker_seed
+
+# Sqlite database containing trades
+**/taker.sqlite*
