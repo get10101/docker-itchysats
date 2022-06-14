@@ -1,17 +1,17 @@
 # docker-itchysats
 
-A repo facilitating running [ItchySats inside] a [Docker][https://www.docker.com/what-docker] container on a x86-64 (e.g. macOS, Linux, Windows) or ARMv7 system.
+A repo facilitating running ItchySats inside a [Docker](https://www.docker.com/what-docker) container on a x86-64 (e.g. macOS, Linux, Windows) or ARMv7 system.
 
 # Overview
 
 ItchySats is a tool allowing CFD trading on Bitcoin - non-custodial, peer-to-peer, Bitcoin only.
 
-You can find more information about ItchySats (along with complete source code) on the main github [repo][https://github.com/itchysats/itchysats].
-[FAQ][https://github.com/itchysats/itchysats/blob/master/FAQ.md] might be another good source of knowledge if you get stuck.
+You can find more information about ItchySats (along with complete source code) on the main github [repo](https://github.com/itchysats/itchysats).
+[FAQ](https://github.com/itchysats/itchysats/blob/master/FAQ.md) might be another good source of knowledge if you get stuck.
 
 # Quickstart
 
-The following guide assumes that you have Docker running, having [docker-compose][https://docs.docker.com/compose/install/] installed is also recommended.
+The following guide assumes that you have Docker running, having [docker-compose](https://docs.docker.com/compose/install/) installed is also recommended.
 Docker website provides extensive tutorials on Docker installation, please refer there if you are new to Docker.
 
 ## Testnet
@@ -33,7 +33,7 @@ docker-compose project-directory=mainnet up -d
 ## User interface
 
 Docker command starts an ItchySats service running in the background.
-The service can be controlled via the provided web UI accessible on [https://localhost:8000][https://localhost:8000].
+The service can be controlled via the provided web UI accessible on [https://localhost:8000](https://localhost:8000).
 Web UI requires authentication via password generated from your `taker_seed`.
 
 ### Credentials
