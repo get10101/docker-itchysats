@@ -19,7 +19,7 @@ Docker website provides extensive tutorials on Docker installation, please refer
 If you just want to check out the application, and want to try out a "demo" version, where you don't trade with real money, then this config is for you.
 
 ```
-docker-compose project-directory=testnet up -d
+docker-compose --project-directory=testnet up -d
 ```
 
 ## Mainnet
@@ -27,7 +27,7 @@ docker-compose project-directory=testnet up -d
 If you're ready to trade with real money, use the following command:
 
 ```
-docker-compose project-directory=mainnet up -d
+docker-compose --project-directory=mainnet up -d
 ```
 
 ## User interface
@@ -41,7 +41,7 @@ Web UI requires authentication via password generated from your `taker_seed`.
 Credentials can be seen in Docker logs after typing in the following command (example for `mainnet`):
 
 ```
-docker-compose project-directory=mainnet logs
+docker-compose --project-directory=mainnet logs
 ```
 
 It is strongly recommended to not store ItchySats logs outside your machine without filtering the credentials out.
@@ -51,7 +51,7 @@ It is strongly recommended to not store ItchySats logs outside your machine with
 On the example of mainnet:
 
 ```
-docker-compose project-directory=mainnet down
+docker-compose --project-directory=mainnet down
 ```
 
 
