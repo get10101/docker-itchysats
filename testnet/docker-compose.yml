@@ -1,7 +1,7 @@
 version: "3.9"
 services:
   itchysats-testnet:
-    image: ghcr.io/itchysats/itchysats/taker:0.4.21
+    image: ghcr.io/itchysats/itchysats/taker:0.5.2
     restart: on-failure
     ports:
       - 8000:8000
