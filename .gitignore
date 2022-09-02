@@ -3,3 +3,6 @@
 
 # Sqlite database containing trades
 **/taker.sqlite*
+
+# ItchySats application data folder
+**/data/*
